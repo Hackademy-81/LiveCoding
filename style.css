@@ -1,0 +1,46 @@
+/* color #669bbc  blue*/
+/* color redmarvell rgb(236, 29, 36) */
+
+*{
+    font-family: 'Electrolize', sans-serif;
+}
+
+h1,h2,h3,h4,h5,h6,.h1, .h2, .h3 , .h4 , .h5 ,.h6{
+    font-family: 'Orbitron', sans-serif;
+}
+
+:root{
+    --colorBlue:rgb(102, 155, 188) ;
+    --colorRedMarvel:rgb(236, 29, 36);
+}
+
+.text-Blue{
+    color: var(--colorBlue);
+}
+.text-RedMarvel{
+    color: var(--colorRedMarvel);
+}
+
+/* CSS NAVBAR */
+
+.navbar-custom{
+    width: 100%;
+}
+
+.navbar-bloor{
+    backdrop-filter: blur(7px) saturate(0.8);
+    background-color: var(--colorBlue);
+}
+
+.logo-custom{
+    height: 40px;
+    width: 100px;
+}
+
+.border-link{
+    border-bottom: 2px solid transparent;
+    transform: 0.4s;
+}
+.border-link:hover{
+    border-bottom: 2px solid var(--colorRedMarvel);
+}
