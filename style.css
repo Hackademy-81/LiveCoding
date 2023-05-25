@@ -9,6 +9,13 @@ h1,h2,h3,h4,h5,h6,.h1, .h2, .h3 , .h4 , .h5 ,.h6{
     font-family: 'Orbitron', sans-serif;
 }
 
+li{
+    list-style: none;
+    
+}
+a {
+    text-decoration: none;
+}
 :root{
     --colorBlue:rgb(102, 155, 188) ;
     --colorRedMarvel:rgb(236, 29, 36);
@@ -201,19 +208,55 @@ article {
     height: 200px;
     width: 200px;
 }
+.img-custom{
+    height: 50vh;
+}
 .card-custom{
-    height: 40vh;
+    height: 100vh;
 }
 .card-body-custom{
-    height: 49vh;
+    height: 50vh;
     background-color: var(--colorBlue);
 }
 .card-body-custom2{
-    height: 49vh;
+    height: 50vh;
     background-color: rgba(0, 128, 0, 0.7);
 }
 .card-body-custom3{
-    height: 49vh;
+    height: 50vh;
     background-color: rgba(128, 0, 128, 0.7) ;
 }
 /* SECTION CARD FINE */
+
+/* Sezione lavora con noi */
+
+.lavoraConNoi{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.6)),url(./Media/lavora\ con\ noi.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+/* fine sezione lavora con noi */
+
+/* inizio css footer */
+.footer-custom{
+    background-color: var(--colorBlue);
+}
+
+.btn-outline-custom2{
+    background-color: transparent;
+    border: 3px  double var(--colorRedMarvel);
+    color: var(--colorRedMarvel);
+    border-radius: 0px;
+    padding: 10px;
+}
+
+.btn-outline-custom2:hover{
+    background-color: var(--colorRedMarvel);
+    border: 3px solid var(--colorRedMarvel);
+    color: white;
+}
