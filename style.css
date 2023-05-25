@@ -28,8 +28,8 @@ h1,h2,h3,h4,h5,h6,.h1, .h2, .h3 , .h4 , .h5 ,.h6{
 }
 
 .navbar-bloor{
-    backdrop-filter: blur(7px) saturate(0.8);
-    background-color: var(--colorBlue);
+    backdrop-filter: blur(4px) saturate(0.6);
+    background-color: rgb(102, 155, 189,0.6 ) ;
 }
 
 .logo-custom{
@@ -43,4 +43,46 @@ h1,h2,h3,h4,h5,h6,.h1, .h2, .h3 , .h4 , .h5 ,.h6{
 }
 .border-link:hover{
     border-bottom: 2px solid var(--colorRedMarvel);
+}
+/* FINE CSS NAVBAR */
+
+/* INIZIO CSS HEADER */
+
+.header-custom{
+    height: 100vh;
+    width: 100%;
+    background: linear-gradient(rgba(0,0,0,0.6), rgba(255,255,255,0.6)), url(./Media/avengerHeader.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+
+}
+
+.h1-custom{
+    color: white;
+    font-size: 80px;
+}
+
+.a-custom{
+    text-decoration: none;
+    color: var(--colorRedMarvel);
+}
+
+.arrow-down{
+    position: absolute;
+    bottom: 40px;
+    z-index: 100;
+    width: 100%;
+    text-align: center;
+    font-size: 35px;
+    color: var(--colorRedMarvel);
+    animation-name: arrow-down;
+    animation-duration: 2.5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes arrow-down{
+    from{ opacity: 0; bottom: 45%;}
+    to { opacity: 1; bottom: 20%;}
 }
