@@ -86,3 +86,30 @@ h1,h2,h3,h4,h5,h6,.h1, .h2, .h3 , .h4 , .h5 ,.h6{
     from{ opacity: 0; bottom: 45%;}
     to { opacity: 1; bottom: 20%;}
 }
+
+/* fine css header */
+
+/* inizio css main */
+
+.btn-outline-custom{
+    background-color: transparent;
+    border: 3px  double var(--colorRedMarvel);
+    color: var(--colorBlue);
+    border-radius: 0px;
+    padding: 10px;
+}
+
+.btn-outline-custom:hover{
+    background-color: var(--colorBlue);
+    border: 3px solid var(--colorRedMarvel);
+    color: white;
+}
+
+.img-cube{
+    height: 500px;
+}
+
+.corousel-custom{
+    border: 4px solid var(--colorRedMarvel);
+    border-radius: 50%;
+}
